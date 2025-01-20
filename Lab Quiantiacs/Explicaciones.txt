@@ -1,0 +1,29 @@
+Activos: En este caso se utilizaron 20 activos, los cuales son los siguientes:
+	1# Apple Inc. (Tecnología)
+	2# Microsoft Corp. (Tecnología)
+	3# Amazon.com Inc. (Consumo Discrecional)
+	4# Alphabet Inc. Clase A (Tecnología)
+	5# Berkshire Hathaway Inc. Clase B (Finanzas)
+	6# Tesla Inc. (Consumo Discrecional)
+	7# JPMorgan Chase & Co. (Finanzas)
+	8# Johnson & Johnson (Salud)
+	9# Visa Inc. Clase A (Finanzas)
+	10# Procter & Gamble Co. (Consumo Básico)
+	11# NVIDIA Corp. (Tecnología)
+	12# Home Depot Inc. (Consumo Discrecional)
+	13# Mastercard Inc. Clase A (Finanzas)
+	14# UnitedHealth Group Inc. (Salud)
+	15# Walt Disney Co. (Comunicación)
+	16# PayPal Holdings Inc. (Tecnología Financiera)
+	17# Exxon Mobil Corp. (Energía)
+	18# Coca-Cola Co. (Consumo Básico)
+	19# Pfizer Inc. (Salud)
+	20# Cisco Systems Inc. (Tecnología)
+
+Variables: En este caso se agrego la variable momentum, la cual es útil para capturar 
+	la tasa de cambio del precio de un activo en un periodo de tiempo determinado
+	en este caso en especifico es por el periodo de los últimos 10 días
+
+Mercado: Es solo remplazar esta función stocks.load_ndx_data, por stocks.load_spx_data
+
+Tecnica: Se utilizo el modelo ElasticNet, este es mucho mas util, porque evita sobreajuestes, cuando hay variables de poca 	influencia o mucho ruido.
